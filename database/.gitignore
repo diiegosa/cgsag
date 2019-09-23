@@ -1,2 +1,3 @@
 *.sqlite
 *.sqlite-journal
+!cgsag_db.sqlite
