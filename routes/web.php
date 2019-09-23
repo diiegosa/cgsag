@@ -10,8 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function () {
-    return view('people.index');
-});
+
+Route::get('/', 'PersonController@index');
 
 Route::resource('people', 'PersonController');
