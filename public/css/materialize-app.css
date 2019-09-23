@@ -1,0 +1,282 @@
+.menu-outer-top {
+	z-index: 999 !important;
+	/* bottom: 35px!important;
+    border-bottom-right-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+    border-top-right-radius: 4px!important;
+    border-top-left-radius: 4px!important; */
+}
+
+.container-fluid{
+	width: 80%!important;
+}
+
+/* NAV */
+	nav{
+		line-height: 100px!important
+	}
+	nav ul h1{
+		font-size: 1.4rem;
+		margin-top: 0;
+		padding: 27px 20px;
+		font-weight: bold;
+		text-shadow: 2px 2px rgba(0,0,0,0.4);
+	}
+	/* LOGO */
+	nav .logo-wrapper{
+		position: absolute;
+		top: 2rem;
+		left: 50%;
+		margin-left: -45px;
+		border: 3px solid #fff;
+		border-radius: 50%;
+	}
+	nav .logo-wrapper{
+		display: block;
+		width: 110px;
+	}
+	.navbar-color, .navbar-fixed{
+		height: 100px!important;
+	}
+	#title {
+		margin-right: 3em;
+		font-size: 20px;
+	}
+	
+/* PAGES */
+	/* HEADER TITLE */
+	.page-title h3.header{
+		color: #444
+	}
+	.page-title .btn-register {
+		margin-top: 20px;
+	}
+
+/* PAGE LOGIN */
+#header-login{
+	padding: 1rem 0;
+}
+	/* ERROS REGISTRATION DEVISE */
+	#error_explanation{
+		background-color: #D32F2F;
+
+		transition: box-shadow .25s, -webkit-box-shadow .25s;
+		padding: 24px;
+		margin: .5rem 0 3rem 0;
+		border-radius: 2px;
+
+		-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+		
+		box-sizing: inherit;
+	}
+	#error_explanation h2{
+		font-size: 1rem;
+		font-weight: bold;
+		margin-top: 1rem;
+	}
+
+	#error_explanation ul{
+		padding-left: 1rem;
+	}
+	#error_explanation ul li{
+		list-style-type: disc;
+	}
+
+	/* LOGIN TITLE  */
+	.login-page h2{
+		color: #1b4a7e;
+		font-size: 28px;
+		font-weight: bold;
+	}
+
+/* TABS */
+.tabs .tab a{
+	color:#6e6e66!important;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+	background-color:#eee;
+	color:#000;
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+	background-color:#009688!important;
+	color:#fff!important;
+} /*Background and text color when a tab is active*/
+.tabs .tab.disabled{
+	opacity: 0.5
+}
+
+.tabs .indicator {
+	background-color:#00695c!important;
+} /*Color of underline*/
+
+/* PAGE SCHOOL */
+.card .card-image {
+	margin-top: 70px;
+}
+.card .card-image .card-title{  
+	background: #444;
+	font-size: 18px;
+	padding: 12px!important;
+}
+
+.modal-correction{
+	width: 55%!important;
+}
+
+/* DIV AVISOS */
+.div_obs_aviso{
+	font-size: 14px;
+	background: #fdffae;
+	border: 1px solid #e0a000;
+	padding: 7px;
+	border-radius: 5px;
+	color: #000;
+	max-width: 100%;
+	margin: 20px auto 10px;
+}
+
+/* TABLES */
+div.material-table table tr td {
+	white-space: normal;
+	overflow: visible;
+}
+div.material-table table th {
+	white-space: normal;
+}
+div.material-table table tr td .btn{
+	margin: 5px 0 5px 0;
+}
+
+/* STEPPER */
+.md-stepper-horizontal {
+	display: flex;
+	justify-content: center;
+	flex-flow: row nowrap;
+	width:100%;
+	margin:0 auto;
+	background-color:#FFFFFF;
+	box-shadow: 0 3px 8px -6px rgba(0,0,0,.50);
+	margin-top: -20px;
+}
+.md-stepper-horizontal .md-step {
+	flex: 1;
+	position:relative;
+	padding:24px;
+}
+.md-stepper-horizontal .md-step:hover,
+.md-stepper-horizontal .md-step:active {
+	background-color:rgba(0,0,0,0.04);
+}
+.md-stepper-horizontal .md-step:active {
+	border-radius: 15% / 75%;
+}
+.md-stepper-horizontal .md-step:first-child:active {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.md-stepper-horizontal .md-step:last-child:active {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.md-stepper-horizontal .md-step:hover .md-step-circle {
+	background-color:#757575;
+}
+.md-stepper-horizontal .md-step:first-child .md-step-bar-left,
+.md-stepper-horizontal .md-step:last-child .md-step-bar-right {
+	display:none;
+}
+.md-stepper-horizontal .md-step .md-step-circle {
+	width:30px;
+	height:30px;
+	margin:0 auto;
+	background-color:#999999;
+	border-radius: 50%;
+	text-align: center;
+	line-height:30px;
+	font-size: 16px;
+	font-weight: 600;
+	color:#FFFFFF;
+}
+.md-stepper-horizontal.green .md-step.active .md-step-circle {
+	background-color:#00AE4D;
+}
+.md-stepper-horizontal .md-step i {
+	display: none;
+}
+.md-stepper-horizontal.orange .md-step.active .md-step-circle {
+	background-color:#F96302;
+}
+.md-stepper-horizontal .md-step.active .md-step-circle {
+	background-color: rgb(33,150,243);
+}
+.md-stepper-horizontal .md-step.done .md-step-circle{
+	background-color: #00AE4D;
+}
+.md-stepper-horizontal .md-step.done .md-step-circle i {
+	display: inline-block;
+	padding-top: 3px;
+}
+.md-stepper-horizontal .md-step.done .md-step-circle *,
+.md-stepper-horizontal .md-step.editable .md-step-circle * {
+	display:none;
+}
+.md-stepper-horizontal .md-step.editable .md-step-circle {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.md-stepper-horizontal .md-step.editable .md-step-circle:before {
+	font-family:'FontAwesome';
+	font-weight:100;
+	content: "\f040";
+}
+.md-stepper-horizontal .md-step .md-step-title {
+	margin-top:16px;
+	font-size:16px;
+	font-weight:600;
+}
+.md-stepper-horizontal .md-step .md-step-title,
+.md-stepper-horizontal .md-step .md-step-optional {
+	text-align: center;
+	color:rgba(0,0,0,.26);
+}
+.md-stepper-horizontal .md-step.active .md-step-title {
+	font-weight: 600;
+	color:rgba(0,0,0,.87);
+}
+.md-stepper-horizontal .md-step.active.done .md-step-title,
+.md-stepper-horizontal .md-step.active.editable .md-step-title {
+	font-weight:600;
+}
+.md-stepper-horizontal .md-step .md-step-optional {
+	font-size:12px;
+}
+.md-stepper-horizontal .md-step.active .md-step-optional {
+	color:rgba(0,0,0,.54);
+}
+.md-stepper-horizontal .md-step .md-step-bar-left,
+.md-stepper-horizontal .md-step .md-step-bar-right {
+	position:absolute;
+	top:36px;
+	height:1px;
+	border-top:1px solid #DDDDDD;
+}
+.md-stepper-horizontal .md-step .md-step-bar-right {
+	right:0;
+	left:50%;
+	margin-left:20px;
+}
+.md-stepper-horizontal .md-step .md-step-bar-left {
+	left:0;
+	right:50%;
+	margin-right:20px;
+}
+
+/* SELECT REACT STYLE */
+.css-kj6f9i-menu{
+	z-index: 2!important;
+}
